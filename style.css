@@ -1,11 +1,18 @@
-@import url('http://fonts.cdnfonts.com/css/pokemon-solid');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap');
+
+/* font-family: 'Lato', sans-serif; */
 
 body {
-    font-family: rubik;
+    background-color: rgba(45, 100, 157, 1);
+    font-family: 'Lato';
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+    color: #F2F2F2;
+}
 
-}
-.container {
-}
 .listOfPokemons {
     display: flex;
     flex-direction: row;
@@ -14,12 +21,15 @@ body {
 .pokemon {
     list-style: none;
     display: inline-block;
-    margin: 40px;
-    border: 1px solid #111D29;
+    margin: 10px 40px 40px 40px;
+    border: 3px solid #EBBC06;
+    background-color: #F2F2F2;
+    border-radius: 13px;
     padding: 5px;
     width: 150px;
     height: 150px;
     text-align: center;
+    box-shadow: 0px 4px 9px 3px rgba(0, 0, 0, 0.25);
 }
 
 .idPokemon{
